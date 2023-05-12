@@ -11,11 +11,17 @@ export const GlobalStyles = createGlobalStyle`
     --very-light-blue: #e7e7e9;
     --black: #000;
     --white: #fff;
+    --regular: 400;
+    --bold: 700;
 }
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+body {
+    font-size: 12px;
 }
 
 `;
